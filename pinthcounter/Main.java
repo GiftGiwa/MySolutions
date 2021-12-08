@@ -4,7 +4,6 @@ public class Main {
         System.out.println(piNthNumber(0)); 
     }
     public static double piNthNumber(int n) {
-        double decimal = Math.PI - 3;
-        return 3 + (int) (decimal / Math.pow(10, -1 * n)) / (Math.pow(10, n));
+        return 3 + (int) (Math.PI - 3 / Math.pow(10, -1 * n)) / (Math.pow(10, n));
     }
 }

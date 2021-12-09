@@ -1,4 +1,4 @@
-package pinthcounter;
+package numbers.pinthcounter;
 public class Main {
     public static void main(String[] args) {
         System.out.println(piNthNumber(2)); 
